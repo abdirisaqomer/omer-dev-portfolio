@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 10vh;
+  width: auto;
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 12px 20px;
+
+    a {
+      text-decoration: none;
+      color: white;
+      padding: 5px 20px;
+      border: 2px solid white;
+      font-weight: bold;
+
+      &:hover {
+          background-color: white;
+          color: black;
+       }
+    }
+  }
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  float: left;
+  border: white 2px solid;
+  padding: 4px;
+  margin: 12px 20px;
+  font-size: 20px;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin: 12px 20px;
+
+  li {
+  display: inline-block;
+  margin-left: 6px;
+
+    a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid white;
+    font-weight: bold;
+
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}
+
+main {
+  background-image: linear-gradient(rgba(131, 61, 61, 0.5), rgba(0, 0, 0, 0.5)), url(../pics/cosmic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: yellow;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+section {
+  height: 100vh;
+  width: auto;
+}
+
+.article-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#profile-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  margin-bottom: 10%;
+  width: auto;
+  border-radius: 50%;
+  border: red 4px solid;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  background-image: none;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    border: white 4px solid;
+    padding: 4px;
+    text-align: left;
+  }
+
+  h3 {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 26px;
+  }
+}
+
+.about-me {
+  display: flex;
+  background-color: pink;
+}
+
+// posts sections
+#posts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #beb7a4;
+  padding: 20px 0 80px 0;
+
+  img {
+    width: 100%;
+    height: 30vh;
+    display: block;
+  }
+}
+
+.post-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.post-item {
+  justify-content: space-between;
+  background-color: #e0e2db;
+  color: #191716;
+  margin: 20px 0;
+  height: 70vh;
+  width: 33%;
+}
+
+.img-container {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+
+  .fa {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #e6af2e;
+    opacity: 0;
+    transition: opacity 4s;
+  }
+
+  &:hover {
+    img {
+      opacity: 0.4;
+    }
+
+    .fa {
+      opacity: 1;
+    }
+  }
+}
+
+.text-container {
+  padding: 10px 5px 30px 5px;
+
+  p {
+    margin: 15px 0 25px 0;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid #e6af2e;
+    color: #e6af2e;
+    margin-bottom: 20px;
+
+    &:hover {
+      background-color: #191716;
+      border-color: #191716;
+    }
+  }
+}
+
+footer {
+  background-color: red;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    display: flex;
+    font-size: 25px;
+    color: white;
+    width: 50vw;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 25px; 
+    color: white;
+    width: 50vw;
+
+    span {
+        padding: 0 15px;
+    
+        &:hover {
+            color: blue;
+            position:relative;
+            bottom:3px;
+        }
+    }
+
+    a:visited {
+        color: white;
+    }
+  }
+}  
