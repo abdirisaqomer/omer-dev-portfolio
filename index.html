@@ -1,207 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OmerDEV</title>
-    <!-- SCSS linked to HTML5 -->
-    <link rel="stylesheet" href="./scss/style.css">
-    <!-- fontawesome Icons -->
-    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-    <!-- fontawesome linked to HTML5 -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./index.js"></script>
     <link
-    href="https://fonts.googleapis.com/css?family=Roboto"
-    rel="stylesheet"
-  />
-    <!-- JavaScript linked to HTML5 -->
-    <script src="index.js" async defer></script>
-</head>
-<body>
-  <header id="header">
-    <!--  nav-->
-    <nav>
-        <h3>OmerDEV</h3>
-        <div id="menu-btn">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./Assets/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <title>OmerDev</title>
+  </head>
+  <body>
+    <header id="header">
+      <!--  nav-->
+      <nav>
+        <div id="nav-top">
+          <h3>OmerDEV</h3>
+          <div id="menu-btn">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
         </div>
-      </div>
-      <!--  nav links-->
-      <div class="navFlexed">
+        <!--  nav links-->
         <ul id="links">
           <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
           <li><a href="#">Skills</a></li>
           <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li class="icon">
-          <!-- <i href="#" class="link-icon"><i class="fa fa-search"></i></a>id -->
-          </li>
+          <li><a href="#">Contact Me</a></li>
         </ul>
-      </div>
-    </nav>
-    <!--  endnav-->
-    <section id="banner">
-      <div id="banner-box">
-        <h1 id="banner-title">OmerDEV</h1>
-        <div class="banner-underline"></div>
-        <h3 class="banner-subtitle">
-          Hello My Name is Abdirisaq Omer
-        </h3>
-        <a href="#"><i class="fa fa-lightbulb-o">Explore</i></a>
-      </div>
-    </section>
-  </header>
-  <!--end of header-->
-  <!--skills section-->
-  <section id="skills">
-    <!--  title-->
-    <div class="title">
-      <h1 class="title-text">Skills</h1>
-      <div class="title-underline"></div>
-    </div>
-    <!--  end of title-->
-    <div class="skills-center">
-      <article class="skill">
-        <i class="fa fa-html5"></i>
-        <h3>blah</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse
-          ducimus obcaecati unde voluptates totam.
-        </p>
-      </article>
-      <article class="skill">
-        <i class="fa fa-line-chart"></i>
-        <h3>blah</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse
-          ducimus obcaecati unde voluptates totam.
-        </p>
-      </article>
-      <article class="skill">
-        <i class="fa fa-css3"></i>
-        <h3>blah</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse
-          ducimus obcaecati unde voluptates totam.
-        </p>
-      </article>
-      <article class="skill">
-        <i class="fa fa-git"></i>
-        <h3>blah</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi esse
-          ducimus obcaecati unde voluptates totam.
-        </p>
-      </article>
-    </div>
-  </section>
-  <!--end of skills section-->
-  
-
-  <section id="portfolio">
-    <!--  title-->
-    <div class="title">
-      <h1 class="title-text">Portfolio</h1>
-      <div class="title-underline"></div>
-    </div>
-    <!--  end of title-->
-    <div class="portfolio-center">
-      <!-- single work item-->
-      <article class="work">
-        <img src="./assets/abdirisaq-omer.png" class="img-box" />
-        <div class="image-overlay">
-          <div class="image-text">
-            <h3>job name</h3>
-            <p>California, USA</p>
-          </div>
-          <div class="image-icon">
-            <a href="#"><i class="fa fa-arrow-right"></i></a>
-          </div>
+      </nav>
+      <!--  endnav-->
+      <section id="banner">
+        <div id="banner-box">
+          <h1 id="banner-title">OmerDEV</h1>
+          <div class="banner-underline"></div>
+          <h3 class="banner-subtitle">
+            Welcome to my website
+          </h3>
+          <a href="#"><i class="fa fa-lightbulb-o">Explore</i></a>
         </div>
-      </article>
-      <!-- end single work item-->
-      <!-- single work item-->
-      <article class="work">
-        <img src="images/products-2.jpeg" class="img-box" />
-        <div class="image-overlay">
-          <div class="image-text">
-            <h3>job name</h3>
-            <p>California, USA</p>
-          </div>
-          <div class="image-icon">
-            <a href="#"><i class="fa fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </article>
-      <!-- end single work item-->
-      <!-- single work item-->
-      <article class="work">
-        <img src="images/products-3.jpeg" class="img-box" />
-        <div class="image-overlay">
-          <div class="image-text">
-            <h3>job name</h3>
-            <p>California, USA</p>
-          </div>
-          <div class="image-icon">
-            <a href="#"><i class="fa fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </article>
-      <!-- end single work item-->
-      <!-- single work item-->
-      <article class="work">
-        <img src="images/products-4.jpeg" class="img-box" />
-        <div class="image-overlay">
-          <div class="image-text">
-            <h3>job name</h3>
-            <p>California, USA</p>
-          </div>
-          <div class="image-icon">
-            <a href="#"><i class="fa fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </article>
-      <!-- end single work item-->
-      <!-- single work item-->
-      <article class="work">
-        <img src="images/products-5.jpeg" class="img-box" />
-        <div class="image-overlay">
-          <div class="image-text">
-            <h3>job name</h3>
-            <p>California, USA</p>
-          </div>
-          <div class="image-icon">
-            <a href="#"><i class="fa fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </article>
-      <!-- end single work item-->
-      <!-- single work item-->
-      <article class="work">
-        <img src="images/products-6.jpeg" class="img-box" />
-        <div class="image-overlay">
-          <div class="image-text">
-            <h3>job name</h3>
-            <p>California, USA</p>
-          </div>
-          <div class="image-icon">
-            <a href="#"><i class="fa fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </article>
-      <!-- end single work item-->
-    </div>
-
-    <div class="section-btn">
-      <a href="#"><i class="fa fa-lightbulb-o"></i>Explore More Projects</a>
-    </div>
-  </section>
-  <!--end of portfolio-->
-
-  <!--Jquer-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="script.js"></script>
-</body>
+      </section>
+    </header>
+  </body>
 </html>
