@@ -303,7 +303,7 @@ nav ul li a:hover {
   margin: 10px auto;
 }
 
-/*customer responsive*/
+/*About-me responsive*/
 @media screen and (min-width: 576px) {
   .aboutme-center {
     display: -webkit-box;
@@ -326,15 +326,89 @@ nav ul li a:hover {
         -ms-flex: 0 0 calc(33.3% - 1em);
             flex: 0 0 calc(33.3% - 1em);
   }
-  .about-me div {
-    width: 100vw;
-  }
   .about-me img {
-    width: 50%;
+    height: 250px;
+    max-width: 750px;
+  }
+  .about-me h3 {
+    font-size: 30px;
+  }
+  .about-me h5 {
+    font-size: 22px;
   }
   .about-me p {
     width: 60%;
     font-size: 20px;
+  }
+}
+
+/*##########hobbies##########################*/
+#hobbies {
+  padding: 40px;
+  background-color: #191919;
+}
+
+#hobbies p {
+  color: white;
+}
+
+.hobbie {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hobbie-icon .fa {
+  font-size: 60px;
+  color: white;
+  margin-right: 20px;
+}
+
+.hobbie-subtitle {
+  text-transform: capitalize;
+  color: white;
+  font-size: 20px;
+}
+
+.hobbie-info {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.hobbie:hover .fa,
+.hobbie:hover .hobbie-subtitle {
+  color: rgba(0, 0, 0, 0.438);
+}
+
+.hobbie:hover .service-info {
+  color: #939393;
+}
+
+/*hobbie responsive*/
+@media screen and (min-width: 576px) {
+  .hobbie-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .hobbie {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(50% - 1em);
+            flex: 0 0 calc(50% - 1em);
+  }
+}
+
+@media screen and (min-width: 972px) {
+  .hobbie {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(33.3% - 1em);
+            flex: 0 0 calc(33.3% - 1em);
   }
 }
 /*# sourceMappingURL=style.css.map */
