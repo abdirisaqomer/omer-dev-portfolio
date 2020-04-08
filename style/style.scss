@@ -396,10 +396,6 @@ nav ul li a:hover {
   font-size: 40px;
 }
 
-.portfolio-h2 {
-  color: black;
-  margin-top: 40px;
-}
 .work {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -416,7 +412,7 @@ nav ul li a:hover {
   max-height: 300px;
   cursor: pointer;
   opacity: 1;
-  transition: opacity 0.5s ease;
+  transition: opacity 2s ease;
 }
 
 #portfolio img:hover {
@@ -435,7 +431,7 @@ nav ul li a:hover {
   align-items: center;
   padding: 0 20px;
   background: rgb(147, 147, 147);
-  transition: margin 0.5s ease;
+  transition: margin 2s ease;
 }
 
 .work:hover .image-overlay {
@@ -446,16 +442,16 @@ nav ul li a:hover {
   text-transform: uppercase;
   font-size: 20px;
   margin-bottom: 5px;
-  color: black;
+  color: #f5f5f5;
 }
 
-.image-overlay .fas {
+.image-overlay .fa {
   font-size: 30px;
   color: #2b98f0;
   padding: 10px;
   background: #f5f5f5;
   border-radius: 50%;
-  transition: transform 0.5s ease, background 0.5s ease;
+  transition: transform 2s ease, background 2s ease;
 }
 
 .image-overlay .fab {
@@ -464,10 +460,10 @@ nav ul li a:hover {
   padding: 10px;
   background: #f5f5f5;
   border-radius: 50%;
-  transition: transform 0.5s ease, background 0.5s ease;
+  transition: transform 2s ease, background 2s ease;
 }
 
-.image-overlay .fas:hover {
+.image-overlay .fa:hover {
   transform: translateY(-10px);
   background: #082238;
 }
@@ -484,20 +480,18 @@ nav ul li a:hover {
 
 .section-btn a {
   display: inline-block;
+  align-items: center;
+  justify-content: center;
   padding: 0.5em;
   text-decoration: none;
   font-size: 30px;
-  color: #f5f5f5;
-  background: #2b98f0;
-  transition: background 0.5s ease, color 0.5s ease;
+  color: black;
+  transition: background 2s ease, color 2s ease;
+  border-radius: 50%;
+  height: 60px;
 }
 
-.section-btn a:hover {
-  color: #2b98f0;
-  background: #f5f5f5;
-}
-
-.section-btn .fas {
+.section-btn .fa {
   font-size: 40px;
   margin-right: 10px;
 }
@@ -523,5 +517,75 @@ nav ul li a:hover {
 @media screen and (min-width: 776px) {
   .work {
     flex: 0 0 calc(33.3% - 15px);
+  }
+}
+
+/*############################Contact US##################*/
+
+#contact {
+  padding: 40px;
+  background: #191919;
+  color: #f5f5f5;
+}
+
+#contact .title-underline {
+  border-color: #f5f5f5;
+}
+
+.item-info {
+  display: flex;
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.item-info .fa {
+  margin-right: 20px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 25px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 4px solid #f5f5f5;
+}
+
+form input::placeholder {
+  color: #f5f5f5;
+}
+
+#customer-info a {
+  display: block;
+  padding: 20px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  color: #f5f5f5;
+  background: #191919;
+  transition: background 2s ease;
+}
+
+#customer-info a:hover {
+  background: #c9c9c9;
+}
+
+/*contact responsive*/
+
+@media screen and (min-width: 776px) {
+  .contact-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #company-info {
+    flex: 0 0 calc(50% - 10px);
+  }
+  #customer-info {
+    flex: 0 0 calc(50% - 10px);
   }
 }
