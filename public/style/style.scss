@@ -36,7 +36,7 @@ nav ul li a {
   text-decoration: none;
   padding: 10px;
   font-size: 26px;
-  transition: color 1s ease, background 1s ease, padding 1s ease;
+  transition: color 0.5s ease, background 0.5s ease, padding 0.5s ease;
 }
 
 nav ul li a:hover {
@@ -56,7 +56,7 @@ nav ul li a:hover {
   padding: 5px;
   color: white;
   border: 3px solid;
-  transition: color 2s ease, background 2s ease;
+  transition: color 0.5s ease, background 0.5s ease;
 }
 
 #nav-top h3:hover {
@@ -66,7 +66,7 @@ nav ul li a:hover {
 
 #menu-btn {
   padding: 5px;
-  border: 2px solid #2b98f0;
+  border: 2px solid white;
   cursor: pointer;
   align-self: center;
 }
@@ -78,7 +78,7 @@ nav ul li a:hover {
   width: 35px;
   background-color: white;
   margin: 5px 0;
-  transition: transform 1s ease;
+  transition: transform 0.5s ease;
 }
 
 .turn .bar1 {
@@ -184,12 +184,6 @@ nav ul li a:hover {
   font-size: 40px;
   text-transform: capitalize;
   color: white;
-}
-
-.title-underline {
-  width: 50px;
-  border: 3px solid white;
-  transition: width 1s ease, border 4s ease;
 }
 
 @media screen and (min-width: 576px) {
@@ -423,7 +417,7 @@ nav ul li a:hover {
   max-height: 300px;
   cursor: pointer;
   opacity: 1;
-  transition: opacity 2s ease;
+  transition: opacity 0.5s ease;
 }
 
 #portfolio img:hover {
@@ -442,7 +436,7 @@ nav ul li a:hover {
   align-items: center;
   padding: 0 20px;
   background: rgb(147, 147, 147);
-  transition: margin 2s ease;
+  transition: margin 0.5s ease;
 }
 
 .work:hover .image-overlay {
@@ -462,7 +456,7 @@ nav ul li a:hover {
   padding: 10px;
   background: #f5f5f5;
   border-radius: 50%;
-  transition: transform 2s ease, background 2s ease;
+  transition: transform 0.5s ease, background 0.5s ease;
 }
 
 .image-overlay .fab {
@@ -471,7 +465,7 @@ nav ul li a:hover {
   padding: 10px;
   background: #f5f5f5;
   border-radius: 50%;
-  transition: transform 2s ease, background 2s ease;
+  transition: transform 0.5s ease, background 0.5s ease;
 }
 
 .image-overlay .fa:hover {
@@ -497,7 +491,7 @@ nav ul li a:hover {
   text-decoration: none;
   font-size: 30px;
   color: black;
-  transition: background 2s ease, color 2s ease;
+  transition: background 0.5s ease, color 0.5s ease;
   border-radius: 50%;
   height: 60px;
 }
@@ -578,7 +572,7 @@ form input::placeholder {
   justify-content: space-around;
   color: #f5f5f5;
   background: #191919;
-  transition: background 2s ease;
+  transition: background 0.5s ease;
 }
 
 #customer-info a:hover {
