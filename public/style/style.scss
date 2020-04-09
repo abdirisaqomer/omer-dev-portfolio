@@ -401,11 +401,16 @@ nav ul li a:hover {
   margin-bottom: 1px;
 }
 
+#title-portfolio {
+  margin-bottom: 20px;
+}
+
 #portfolio-paragraph {
   color: black;
   font-size: 12px;
   margin-top: 10px;
 }
+
 .work {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -531,6 +536,34 @@ nav ul li a:hover {
 @media screen and (min-width: 776px) {
   .work {
     flex: 0 0 calc(33.3% - 15px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #portfolio-title {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 1px;
+  }
+
+  #portfolio-paragraph {
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #portfolio-title {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 1px;
+  }
+
+  #portfolio-paragraph {
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
   }
 }
 
