@@ -558,18 +558,7 @@ nav ul li a:hover {
   color: #f5f5f5;
 }
 
-.image-overlay .fa {
-  font-size: 30px;
-  color: #2b98f0;
-  padding: 10px;
-  background: #f5f5f5;
-  border-radius: 50%;
-  -webkit-transition: background 0.5s ease, -webkit-transform 0.5s ease;
-  transition: background 0.5s ease, -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease, background 0.5s ease;
-  transition: transform 0.5s ease, background 0.5s ease, -webkit-transform 0.5s ease;
-}
-
+.image-overlay .fa,
 .image-overlay .fab {
   font-size: 30px;
   color: #2b98f0;
@@ -582,12 +571,7 @@ nav ul li a:hover {
   transition: transform 0.5s ease, background 0.5s ease, -webkit-transform 0.5s ease;
 }
 
-.image-overlay .fa:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
-  background: #082238;
-}
-
+.image-overlay .fa:hover,
 .image-overlay .fab:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
@@ -617,11 +601,7 @@ nav ul li a:hover {
   height: 60px;
 }
 
-.section-btn .fa {
-  font-size: 40px;
-  margin-right: 10px;
-}
-
+.section-btn .fa,
 .section-btn .fab {
   font-size: 40px;
   margin-right: 10px;
@@ -763,11 +743,7 @@ form input::placeholder {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  #company-info {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 calc(50% - 10px);
-            flex: 0 0 calc(50% - 10px);
-  }
+  #company-info,
   #customer-info {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 calc(50% - 10px);
