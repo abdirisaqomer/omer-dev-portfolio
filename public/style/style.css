@@ -667,6 +667,14 @@ nav ul li a:hover {
   color: #f5f5f5;
 }
 
+#contact p {
+  font-size: 18px;
+}
+
+#contact #github {
+  padding-left: 20px;
+}
+
 #contact .title-underline {
   border-color: #f5f5f5;
 }
